@@ -94,6 +94,3 @@
     isLoanPastDue,
     MS_PER_DAY
  }
-
- getLoansToLiquidateForDay()
- console.log(loan)
