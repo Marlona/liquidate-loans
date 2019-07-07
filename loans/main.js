@@ -1,18 +1,3 @@
-/**
- *
- *  Assumptions for time constrains
- *
- * if (principalTokenId: null) = USDC = DAI all equal to $1
- *
- *  Token was not needed for calculation since they were both equal
- *
- *  Took the Minimum price for the day if collateral was less then it was added to output Array.
- *
- *  Todo: Refactor
- *  for loops into Array built in methods
- *
- *
- */
 
  const loans = require('../loans.json')
  const ethPrice = require('../eth-price.json')
